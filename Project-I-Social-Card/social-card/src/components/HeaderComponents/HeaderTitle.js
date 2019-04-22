@@ -5,7 +5,7 @@ const HeaderTitle = () => {
     return(
         <div className = "HeaderTitle">
         <h1>Lambda School</h1>
-        <h2>@LambdaSchool · {moment().format("MMM Do YYYY")}</h2>
+        <h2>@LambdaSchool · {moment().format("MMM Do")}</h2>
         </div>
     )
 };
