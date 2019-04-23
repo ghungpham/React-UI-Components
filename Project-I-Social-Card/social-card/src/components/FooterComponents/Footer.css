@@ -1,0 +1,9 @@
+.Footer{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    color: gray;
+    margin-left: 3%;
+}
