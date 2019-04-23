@@ -1,0 +1,57 @@
+.numbers {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border-left: 2px solid darkgray;
+}
+
+.numbers .clear {
+    width: 100%;
+    padding: 25px 0;
+    font-size: 3rem;
+    border-bottom: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+}
+
+.numbers .nonzero{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    font-size: 3rem;
+}
+
+.numbers .nonzero .number {
+    padding: 25px 42.70px;
+    border-bottom: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+    
+}
+
+.numbers .zero {
+    width: 100%;
+    background-color: white;
+    padding: 25px 0;
+    font-size: 3rem;
+    border-bottom: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+}
+
+.actionbuttons{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    text-align: center;
+    border-right: 2px solid darkgray;
+}
+
+.actionbuttons .action{
+    background-color: #86181D;
+    color: white;
+    padding: 25px 0;
+    font-size: 3rem;
+    border-bottom: 2px solid darkgray;
+}
