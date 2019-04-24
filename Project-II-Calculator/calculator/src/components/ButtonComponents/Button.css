@@ -40,18 +40,18 @@
     border-right: 2px solid darkgray;
 }
 
-.actionbuttons{
+/* .calc .actionbuttons{
     display: flex;
     width: 25%;
     flex-direction: column;
     text-align: center;
     border-right: 2px solid darkgray;
-}
+} */
 
 .actionbuttons .action{
     background-color: #86181D;
     color: white;
-    padding: 25px 0;
+    padding: 19.55px 0;
     font-size: 3rem;
     border-bottom: 2px solid darkgray;
 }

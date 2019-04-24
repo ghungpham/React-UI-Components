@@ -1,12 +1,9 @@
 import React from 'react';
 import './Button.css';
 
-const actions = ["÷", "x", "+", "-", "="];
-const ActionButton = () => {
+const ActionButton = props => {
     return (
-        <div className = "actionbuttons">
-        {actions.map(action => { return <div className ="action">{action}</div>})}
-        </div>
+        <button className={props.buttonProp.buttonStyle}>{props.buttonProp.text}</button>
 )
 };
 
