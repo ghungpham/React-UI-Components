@@ -1,0 +1,19 @@
+.calc {
+    width: 460px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons .actionbuttons{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    text-align: center;
+    border-right: 2px solid darkgray;
+}
